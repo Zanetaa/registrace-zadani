@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './style.css';
 
 const Registration = () => {
   const [user, setUser] = useState({
@@ -8,3 +9,5 @@ const Registration = () => {
     passwordConfirm: '',
   });
 };
+
+export default Registration;
